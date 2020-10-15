@@ -3,8 +3,32 @@ version: "2.0"
 nlu:
 - intent: availability
   examples: |
-    - Es relevante que el sistema debe estar disponible las 24 horas del día durante todo el año
-    - Es importante que el sistema esté disponible las 24 horas los 365 días del año
+    - Es relevante que el sistema este disponible las 24 horas del día durante todo el año
+    - Es importante que el sistema este disponible las 24 horas los 365 días del año
+    - El sistema debe estar disponible el 99% del tiempo durante los primeros seis meses de funcionamiento.
+    - El sistema debe estar disponible a la mayor cantidad de accesos. 
+    - De 1000 accesos al sistema, el sistema esta disponible 999 veces. 
+    - El tiempo de actividad alcanzado por el sistema debe ser del 95%.
+    - El tiempo de actividad alcanzado por el sistema debe ser de un porcentaje alto.
+    - El sistema debe fallar un porcentaje bajo de veces del tiempo que este disponible.
+    - El sistema debe fallar una baja cantidad de veces del tiempo disponible en linea.
+    - Los recursos del sistema deben estar disponible en cualquier momento del dia.
+    - El sistema debe proporcionar un contacto las 24 horas del dia, los siete dias de la semana.
+    - El sistema debe proporcionar un contacto todo el dia, cualquier dia de la semana.
+    - El sistema ante alguna falla, debe dar un comunicado comprensible al usuario.
+    - El sistema ante alguna falla, debe notificar al usuario claramente.
+    - El tiempo de inactividad del sistema debe ser como maximo un periodo chico por año.
+    - El sistema debe estar inactivo un tiempo relativamente chico por año.
+    - El sistema debe estar disponible dentro de 24hs posteriores a un cambio.
+    - El sistema debe estar disponible dentro de 24hs posteriores a una nueva instalacion o cambio de version.
+    - El software del sistema debe poder funcionar sin reiniciar el sistema por completo frente a una falla.
+    - Debe ser posible que se trate una falla de software del sistema independientemente. 
+    - El hardware del sistema debe poder funcionar sin una perdida completa de servicio, excepto que falle la fuente de energia primaria y de respaldo.
+    - El hardware del sistema debe poder funcionar sin perder el servicio por completo, excepto cuando fallen todos los suministros de energia.
+    - El sistema debe responder sin perdidas a los cambios de procesamiento y entrada y salida.
+    - Ante una inactividad el sistema debe volver a operar con un retraso minimo.
+    - Ante una caida del sistema este debe recuperarse en el menos tiempo posible. 
+    - El entorno de desarollo y mantenimiento debe estar disponible para una gran cantidad de desarrolladores el mayor tiempo posible laboral.
 
 - intent: fault_tolerance
   examples: |
